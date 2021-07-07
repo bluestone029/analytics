@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T08:08:41.166Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.64" etag="nSN2FXmfuFAKom7PHNBx" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-07T08:16:12.579Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.64" etag="AvIwnDquJWfuNkOysyR-" version="14.8.4" type="github">
   <diagram name="Page-1" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
-    <mxGraphModel dx="447" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1181" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -397,6 +397,32 @@
         </mxCell>
         <mxCell id="Ptk5G7yC9ug2H7pQ41FV-121" value="" style="shape=loopLimit;whiteSpace=wrap;html=1;size=80;rotation=45;" vertex="1" parent="1">
           <mxGeometry x="160" y="520" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptk5G7yC9ug2H7pQ41FV-123" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="900" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptk5G7yC9ug2H7pQ41FV-124" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;Project&lt;/strong&gt;&lt;/p&gt;&lt;hr /&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;IdProject&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;IdClient&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Name&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Description&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;StartDate&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;EndDate&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;CreatedAt&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;UpdatedAt&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Enabled&lt;br /&gt;IdProjectManager&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="1050" y="710" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptk5G7yC9ug2H7pQ41FV-125" value="Orgchart" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+          <mxGeometry x="1380" y="630" width="280" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptk5G7yC9ug2H7pQ41FV-126" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;" edge="1" parent="Ptk5G7yC9ug2H7pQ41FV-125" source="Ptk5G7yC9ug2H7pQ41FV-128" target="Ptk5G7yC9ug2H7pQ41FV-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptk5G7yC9ug2H7pQ41FV-127" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;" edge="1" parent="Ptk5G7yC9ug2H7pQ41FV-125" source="Ptk5G7yC9ug2H7pQ41FV-128" target="Ptk5G7yC9ug2H7pQ41FV-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Organization" treeRoot="1" id="Ptk5G7yC9ug2H7pQ41FV-128">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="Ptk5G7yC9ug2H7pQ41FV-125">
+            <mxGeometry x="80" y="40" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Ptk5G7yC9ug2H7pQ41FV-129" value="Division" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="Ptk5G7yC9ug2H7pQ41FV-125">
+          <mxGeometry x="20" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptk5G7yC9ug2H7pQ41FV-130" value="Division" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="Ptk5G7yC9ug2H7pQ41FV-125">
+          <mxGeometry x="160" y="140" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
